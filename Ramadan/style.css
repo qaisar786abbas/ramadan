@@ -1,0 +1,120 @@
+
+.countdown-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1563300365-9c77e472e7a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbWFkYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    text-align: center;
+    height: auto;
+}
+
+.countdown-text {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 1px 1px 25px #00ff37;
+    color: white!important;
+    padding-top: 50px;
+}
+
+
+@media only screen and (max-width: 767px)
+.h1-1 {
+    font-size: 40px;
+}
+
+
+.h1-1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 1px 1px 25px #00ff77;
+    padding-top: 100px;
+}
+.h2-2{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 1px 1px 25px #00ff77;
+}
+
+
+.bt{
+    border-color: white;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color:green;
+    margin-top: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#countdown{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 25px #00ff37;
+    color: white!important;
+    padding-top: 80px;
+}
+
+.calender{
+    color: white;
+    border-width: 5px!important;
+    border-style: thick;
+    border-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: thick solid white;
+    padding: 0px auto;
+}
+@media only screen and (max-width: 567px)
+table > th {
+    font-size: 2rem;
+    padding-left: 30px!important;
+    border: thin solid white;
+}
+
+.head{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.tt{
+    padding-left: 30px!important;
+    padding-right: 15px!important;
+}
+.aa{
+    padding-left: 25px!important;
+}
+
+
+.top{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 25px #00ff37;
+    color: white!important;
+    padding-top: 80px;    
+}
